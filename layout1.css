@@ -1,0 +1,24 @@
+/* css : cascading style sheets */
+
+.round-image
+{
+  width:500px;
+  height:300px; 
+  display:block; 
+  margin-left:auto; margin-right:auto; 
+  border-radius:20px;
+}
+
+.name
+{
+  text-align:center;
+
+}
+
+.introdution
+{
+  color:rgb(201, 165, 255); 
+  font-size:20px; 
+  font-family:궁서체;
+  text-align:center;
+}
