@@ -1,0 +1,21 @@
+#layout5.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>day2_2</title>
+</head>
+<body>
+  <div style = "background:orange;
+  display:block; margin-left:auto; margin-right:auto;
+  width:50%; font-size:0;">
+  <p style = "font-size:20px">안녕하세요</p>
+    <div style = "width:50%;height:300px; 
+    background:red; display:inline-block"></div>
+    <div style = "width:49%;height:300px; 
+    background:red; display:inline-block;"></div>
+  </div>
+</body>
+</html>
