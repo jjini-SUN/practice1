@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .imgs{
+      background:yellowgreen;
+      display:flex;
+      height:50vh;   /*내가 보는 화면의 50%*/
+      flex-wrap:wrap;   /*안쪽에서 내 크기를 초과하면 밑으로 떨어지게*/
+      align-items: center;   /*중앙정렬*/
+      justify-content: center;
+    }
+
+    .img-box{
+      width:25%;
+      height:40vh;
+      background-size: cover;
+    }
+
+    @media screen and (max-width:1200px)
+    {
+      .img-box{
+        width:50%;
+      }
+    }
+
+    /*모바일 768px 이하일 때*/
+    @media screen and (max-width:768px)
+    {
+      .img-box{
+        width:100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!--div 백그라운드 이미지 : 웹에서는 한라인에 2개씩, 모바일에서는 한라인에 1개씩-->
+  <div class = "imgs">
+    <div class = "img-box" style = "background-image:url(./images/스타벅스.jpg);">
+
+    </div>
+
+    <div class = "img-box" style = "background-image:url(./images/사막여우.jpg);">
+
+    </div>
+
+    <div class = "img-box" style = "background-image:url(./images/커피한잔.jpg);">
+
+    </div>
+
+    <div class = "img-box" style = "background-image:url(./images/우주.jpg);">
+
+    </div>
+  </div>
+</body>
+</html>
