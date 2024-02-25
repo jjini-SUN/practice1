@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Transition 샘플</title>
+  <style>
+    .content {
+      background:mintcream;
+      width:250px;
+      height:30px;
+      display:flex;
+      align-items: center;
+      justify-content: center;
+      transition:all 1s;
+    }
+
+    .content:hover {
+      background:mediumaquamarine;
+      font-weight:bold;
+    }
+
+    .content:hover span{
+      color:white;
+      font-weight:bold;
+    }
+  </style>
+</head>
+<body>
+  <p style = "transform: rotate(10deg); width:100px">안녕</p>
+
+  <!--마우스를 올리면 1초 동안 violet이 되게-->
+  <div class = "content">
+    마우스를 올리면 <span>색</span>이 바뀝니다.
+  </div>
+</body>
+</html>

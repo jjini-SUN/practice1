@@ -1,0 +1,152 @@
+body
+{
+  margin:0;
+  padding:0;
+}
+
+div, input, textarea
+{
+  box-sizing:bordr-box;
+}
+
+.login-whole
+{
+  background:white;
+  border:2px solid black;
+  width: 30%;
+  min-width:400px;
+  max-width:450px;
+  height:450px;
+  margin:auto;
+  border-radius:5px;
+}
+
+.login-title
+{
+  background:rgb(52, 52, 194);
+  width:100%; 
+  height:50px;
+  text-align:center;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-title p
+{
+  margin:0;
+  padding:0;
+  color:white;
+  font-size:24px; font-weight:bold;
+}
+
+.login-welcome
+{
+  background:rgba(52, 52, 194, 0.170);
+  width:100%;
+  height:40px;
+  outline:1px solid black;
+  text-align:center;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-welcome p{
+  margin:0;
+  padding:0;
+}
+
+.component-login
+{
+  width:100%;
+  height:310px;
+
+  position:relative;
+  
+}
+
+.component-input
+{
+  width:300px;
+  height:240px;
+  
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%, -50%);
+}
+
+.component-input input
+{
+  width:286px;
+  height:25px;
+  padding:5px;
+  font-size:15px;
+}
+
+.component-input input[type = text],
+.component-input input[type = password]
+{
+  outline:1.5px solid black;
+}
+
+.checkbox
+{
+  display:flex;
+  align-items:center;
+}
+
+.component-input input[type = checkbox]
+{
+  margin:0;
+  width:13px;
+}
+
+.component-input input[type = submit]
+{
+  width:100%;
+  height:45px;
+}
+
+.signup
+{
+  background:rgba(52, 52, 194, 0.80);
+  width:34%;
+  height:50px;
+  float:left;
+  outline:1px solid black;
+
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  color:white;
+}
+
+.search-id
+{
+  background:rgb(52, 52, 194, 0.80);
+  width:33%;
+  height:50px;
+  float:left;
+  outline:1px solid black;
+
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  color:white;
+}
+
+.search-pw
+{
+  background:rgb(52, 52, 194, 0.80);
+  width:33%;
+  height:50px;
+  float:left;
+  outline:1px solid black;
+
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  color:white;
+}
