@@ -4,107 +4,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>스타벅스 샘플</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-  <style>
-    body {
-      margin:0;
-    }
+  <link rel="stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel = "stylesheet" href="./css/star_1.css">
 
-    .section-header {
-      width:100%;
-      height:120px;
-      background:rgb(246, 245, 239);
-    }
-
-    .inner-header {
-      width:1100px;
-      height:100%;
-      margin:auto;
-      display:flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-
-    .logo {
-      background:skyblue;
-      width:75px;
-      height:75px;
-    }
-    .logo img {
-      width:100%;
-      height:100%;
-    }
-
-    .space-nav {
-
-    }
-
-    .space-nav li{
-      display:inline-block;
-    }
-
-    .top-nav {
-      height:45px;
-      font-size:13px;
-      display:flex;
-      justify-content: flex-end;
-    }
-    .top-nav a {
-      color:black;
-      text-decoration: none; /* 밑줄 없애기 */
-      padding-right:15px;
-      padding-left:15px;
-      border-right: 1px solid lightgrey;
-    }
-    .top-nav a:hover {
-      text-decoration: underline;
-    }
-
-    .bottom-nav {
-      display:flex;
-      justify-content: flex-end;
-    }
-    .bottom-nav a {
-      color:black;
-      text-decoration: none;
-      padding-right:15px;
-      padding-left:15px;
-    }
-    .bottom-nav a:hover {
-      color:green;
-      text-decoration: underline;
-    }
-
-    /*섹션 2*/
-    .main-slogan {
-      background-image:url(./images/sec1_back.PNG);
-      width:100%; Height:615px;
-      object-fit:cover;
-      position:relative;
-    }
-
-    .main-left-div {
-      width:185px;
-      height:150px;
-      position:absolute;
-      left:180px;
-      top:50%;
-      transform:translate(0, -50%);
-    }
-
-    .MEETtheMOMENT {
-
-    }
-
-    .main-button {
-
-    }
-
-    
-
-  </style>
 </head>
 <body>
+  <!--섹션1-->
   <div class = "section-header">
     <div class = "inner-header">
       <div class = "logo">
@@ -137,15 +42,37 @@
     </div>
   </div>
 
+  <!--섹션2-->
   <div class = "main-slogan">
     <div class = "main-left-div">
-      <img src = "./images/MEETtheMOMENT.PNG" alt = "" class = "MEETtheMOMENT">
-      <button class = "main-button">자세히 보기</button>
+      <div class = "main-letter">
+        <img src = "./images/MEETtheMOMENT.PNG" alt = "">
+      </div>
+      <div class = "main-button-div">
+        <button class = "main-button"><a href = "#">자세히 보기</a></button>
+      </div>
     </div>
+    <!--
     <img src = "./images/tarolatte.PNG" alt = "" class = "tarolatte">
     <img src = "./images/cookielatte.PNG" alt = "" class = "cookielatte">
     <img src = "./images/chamomiletea.PNG" alt = "" class = "chamomiletea">
+    -->
+    <img src = "./images/baverages.png" class = "baverages">
   </div>
 
+  <!--섹션3-->
+  <div class = "main-slogan-under">
+    <div class = "notice">
+      <p><b>공지사항</b></p>
+      <a href = "#" class = "a1">시스템 개선 및 서비스 점검 안내</a>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href = "#"><i class="fa-solid fa-plus"></i></a>
+    </div>
+    
+    <div class = "promotion">
+      <a href = "#">스타벅스 프로모션 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fas fa-chevron-down"></i></a>
+  </div>
+
+  <!--섹션4-->
 </body>
 </html>

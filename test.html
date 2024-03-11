@@ -19,11 +19,34 @@
             position:absolute;
             right:50%;
         }
+
+        .parent-div {
+            background:grey;
+            width:500px;
+            height:300px;
+            display:flex; /*부모에게 속성을 주어야 자식div가 가운데 배치됨*/
+            align-items: center;
+            justify-content: center;
+        }
+
+        .child-div {
+            background:white;
+            width:200px;
+            height:200px;
+        }
     </style>
 </head>
 <body>
+    <!--relative / absolute 시험-->
     <div class = "parent">
         <div class = "child">
+
+        </div>
+    </div>
+
+    <!--div 가운데 배치 속성 부모/자식 적용 시험-->
+    <div class = "parent-div">
+        <div class = "child-div">
 
         </div>
     </div>
